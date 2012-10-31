@@ -1,6 +1,8 @@
 # BPScaling
 
 ## Description
+A simple category for prepping apps for the iPad mini.
+
 With the iPad Mini coming out soon it is important to see how our iPad apps will look and feel on the smaller screen. This project provides a drop-in category to help with this testing.
 
 The idea and original logic for this project comes from [this blog post](http://blog.michaelslater.net/making-your-ipad-app-mini.html) by Michael Slater.
