@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D316CFE21640CDC300ED823F /* BPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D316CFDD1640CDC300ED823F /* BPAppDelegate.m */; };
+		D316CFE31640CDC300ED823F /* BPBlueprintView.m in Sources */ = {isa = PBXBuildFile; fileRef = D316CFDF1640CDC300ED823F /* BPBlueprintView.m */; };
+		D316CFE41640CDC300ED823F /* BPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D316CFE11640CDC300ED823F /* BPViewController.m */; };
+		D316CFEC1640CDD300ED823F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D316CFE71640CDD300ED823F /* Default-568h@2x.png */; };
+		D316CFED1640CDD300ED823F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D316CFE81640CDD300ED823F /* Default.png */; };
+		D316CFEE1640CDD300ED823F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D316CFE91640CDD300ED823F /* Default@2x.png */; };
+		D316CFEF1640CDD300ED823F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D316CFEA1640CDD300ED823F /* main.m */; };
+		D316CFF81640CE0400ED823F /* UIWindow+BPScaling.m in Sources */ = {isa = PBXBuildFile; fileRef = D316CFF71640CE0400ED823F /* UIWindow+BPScaling.m */; };
+		D316CFFC1640CEC600ED823F /* BPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D316CFFA1640CEC600ED823F /* BPViewController.xib */; };
+		D325E3511640B7D900935AED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D325E3501640B7D900935AED /* UIKit.framework */; };
+		D325E3531640B7D900935AED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D325E3521640B7D900935AED /* Foundation.framework */; };
+		D325E3551640B7D900935AED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D325E3541640B7D900935AED /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D316CFDC1640CDC300ED823F /* BPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BPAppDelegate.h; path = BPWindowScalingDemo/BPAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		D316CFDD1640CDC300ED823F /* BPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BPAppDelegate.m; path = BPWindowScalingDemo/BPAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		D316CFDE1640CDC300ED823F /* BPBlueprintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BPBlueprintView.h; path = BPWindowScalingDemo/BPBlueprintView.h; sourceTree = SOURCE_ROOT; };
+		D316CFDF1640CDC300ED823F /* BPBlueprintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BPBlueprintView.m; path = BPWindowScalingDemo/BPBlueprintView.m; sourceTree = SOURCE_ROOT; };
+		D316CFE01640CDC300ED823F /* BPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BPViewController.h; path = BPWindowScalingDemo/BPViewController.h; sourceTree = SOURCE_ROOT; };
+		D316CFE11640CDC300ED823F /* BPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BPViewController.m; path = BPWindowScalingDemo/BPViewController.m; sourceTree = SOURCE_ROOT; };
+		D316CFE51640CDD300ED823F /* BPWindowScalingDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "BPWindowScalingDemo-Info.plist"; path = "BPWindowScalingDemo/BPWindowScalingDemo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D316CFE61640CDD300ED823F /* BPWindowScalingDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BPWindowScalingDemo-Prefix.pch"; path = "BPWindowScalingDemo/BPWindowScalingDemo-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		D316CFE71640CDD300ED823F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "BPWindowScalingDemo/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		D316CFE81640CDD300ED823F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = BPWindowScalingDemo/Default.png; sourceTree = SOURCE_ROOT; };
+		D316CFE91640CDD300ED823F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "BPWindowScalingDemo/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		D316CFEA1640CDD300ED823F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BPWindowScalingDemo/main.m; sourceTree = SOURCE_ROOT; };
+		D316CFF61640CE0400ED823F /* UIWindow+BPScaling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+BPScaling.h"; sourceTree = "<group>"; };
+		D316CFF71640CE0400ED823F /* UIWindow+BPScaling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+BPScaling.m"; sourceTree = "<group>"; };
+		D316CFFB1640CEC600ED823F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = BPWindowScalingDemo/en.lproj/BPViewController.xib; sourceTree = SOURCE_ROOT; };
+		D325E34C1640B7D900935AED /* BPWindowScalingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BPWindowScalingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D325E3501640B7D900935AED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D325E3521640B7D900935AED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D325E3541640B7D900935AED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D325E3491640B7D900935AED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D325E3511640B7D900935AED /* UIKit.framework in Frameworks */,
+				D325E3531640B7D900935AED /* Foundation.framework in Frameworks */,
+				D325E3551640B7D900935AED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D316CFF51640CE0400ED823F /* BPScaling */ = {
+			isa = PBXGroup;
+			children = (
+				D316CFF61640CE0400ED823F /* UIWindow+BPScaling.h */,
+				D316CFF71640CE0400ED823F /* UIWindow+BPScaling.m */,
+			);
+			path = BPScaling;
+			sourceTree = "<group>";
+		};
+		D325E3411640B7D800935AED = {
+			isa = PBXGroup;
+			children = (
+				D316CFF51640CE0400ED823F /* BPScaling */,
+				D325E3561640B7D900935AED /* BPWindowScalingDemo */,
+				D325E34F1640B7D900935AED /* Frameworks */,
+				D325E34D1640B7D900935AED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D325E34D1640B7D900935AED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D325E34C1640B7D900935AED /* BPWindowScalingDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D325E34F1640B7D900935AED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D325E3501640B7D900935AED /* UIKit.framework */,
+				D325E3521640B7D900935AED /* Foundation.framework */,
+				D325E3541640B7D900935AED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D325E3561640B7D900935AED /* BPWindowScalingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D316CFDC1640CDC300ED823F /* BPAppDelegate.h */,
+				D316CFDD1640CDC300ED823F /* BPAppDelegate.m */,
+				D316CFDE1640CDC300ED823F /* BPBlueprintView.h */,
+				D316CFDF1640CDC300ED823F /* BPBlueprintView.m */,
+				D316CFE01640CDC300ED823F /* BPViewController.h */,
+				D316CFE11640CDC300ED823F /* BPViewController.m */,
+				D316CFFA1640CEC600ED823F /* BPViewController.xib */,
+				D325E3571640B7D900935AED /* Supporting Files */,
+			);
+			name = BPWindowScalingDemo;
+			path = BPAppScale;
+			sourceTree = "<group>";
+		};
+		D325E3571640B7D900935AED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D316CFE51640CDD300ED823F /* BPWindowScalingDemo-Info.plist */,
+				D316CFE61640CDD300ED823F /* BPWindowScalingDemo-Prefix.pch */,
+				D316CFE71640CDD300ED823F /* Default-568h@2x.png */,
+				D316CFE81640CDD300ED823F /* Default.png */,
+				D316CFE91640CDD300ED823F /* Default@2x.png */,
+				D316CFEA1640CDD300ED823F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D325E34B1640B7D900935AED /* BPWindowScalingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D325E3701640B7D900935AED /* Build configuration list for PBXNativeTarget "BPWindowScalingDemo" */;
+			buildPhases = (
+				D325E3481640B7D900935AED /* Sources */,
+				D325E3491640B7D900935AED /* Frameworks */,
+				D325E34A1640B7D900935AED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BPWindowScalingDemo;
+			productName = BPAppScale;
+			productReference = D325E34C1640B7D900935AED /* BPWindowScalingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D325E3431640B7D800935AED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Brian Partridge";
+			};
+			buildConfigurationList = D325E3461640B7D800935AED /* Build configuration list for PBXProject "BPWindowScalingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D325E3411640B7D800935AED;
+			productRefGroup = D325E34D1640B7D900935AED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D325E34B1640B7D900935AED /* BPWindowScalingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D325E34A1640B7D900935AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D316CFEC1640CDD300ED823F /* Default-568h@2x.png in Resources */,
+				D316CFED1640CDD300ED823F /* Default.png in Resources */,
+				D316CFEE1640CDD300ED823F /* Default@2x.png in Resources */,
+				D316CFFC1640CEC600ED823F /* BPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D325E3481640B7D900935AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D316CFE21640CDC300ED823F /* BPAppDelegate.m in Sources */,
+				D316CFE31640CDC300ED823F /* BPBlueprintView.m in Sources */,
+				D316CFE41640CDC300ED823F /* BPViewController.m in Sources */,
+				D316CFEF1640CDD300ED823F /* main.m in Sources */,
+				D316CFF81640CE0400ED823F /* UIWindow+BPScaling.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D316CFFA1640CEC600ED823F /* BPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D316CFFB1640CEC600ED823F /* en */,
+			);
+			name = BPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D325E36E1640B7D900935AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D325E36F1640B7D900935AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D325E3711640B7D900935AED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BPWindowScalingDemo/BPWindowScalingDemo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/BPWindowScalingDemo/BPWindowScalingDemo-Info.plist";
+				PRODUCT_NAME = BPWindowScalingDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D325E3721640B7D900935AED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BPWindowScalingDemo/BPWindowScalingDemo-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/BPWindowScalingDemo/BPWindowScalingDemo-Info.plist";
+				PRODUCT_NAME = BPWindowScalingDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D325E3461640B7D800935AED /* Build configuration list for PBXProject "BPWindowScalingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D325E36E1640B7D900935AED /* Debug */,
+				D325E36F1640B7D900935AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D325E3701640B7D900935AED /* Build configuration list for PBXNativeTarget "BPWindowScalingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D325E3711640B7D900935AED /* Debug */,
+				D325E3721640B7D900935AED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D325E3431640B7D800935AED /* Project object */;
+}
